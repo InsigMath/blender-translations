@@ -1,7 +1,7 @@
 
 msgid ""
 msgstr ""
-"Project-Id-Version: Blender 2.91.0 Alpha (b'cf778a9e4237')\n"
+"Project-Id-Version: Blender 2.91.0 Beta (b'9e736fc98481')\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-01 00:00:00\n"
 "PO-Revision-Date: 2012-09-07 22:32+0100\n"
@@ -3180,6 +3180,10 @@ msgid "Source"
 msgstr "Извор"
 
 
+msgid "Invert"
+msgstr "Обрнуто"
+
+
 msgid "Expression"
 msgstr "Израз"
 
@@ -4541,20 +4545,8 @@ msgid "Effective but slow compression"
 msgstr "Ефикасна, али спора компресија"
 
 
-msgid "Half"
-msgstr "Упола"
-
-
 msgid "Number"
 msgstr "Број"
-
-
-msgid "Cache Compression"
-msgstr "Компресија"
-
-
-msgid "Heavy"
-msgstr "Тешко"
 
 
 msgid "p0"
@@ -4947,10 +4939,6 @@ msgstr "Прикажи тачке"
 
 msgid "Mask Layer"
 msgstr "Маскирај слој"
-
-
-msgid "Invert"
-msgstr "Обрнуто"
 
 
 msgid "Layer"
@@ -5944,6 +5932,10 @@ msgstr "Извуци"
 
 msgid "Fill Mode"
 msgstr "Попуни рупе"
+
+
+msgid "Half"
+msgstr "Упола"
 
 
 msgid "Path Length"
@@ -12740,18 +12732,6 @@ msgid "Select keyframes beside already selected ones"
 msgstr "Изабери кључне кадрове мимо исабраних"
 
 
-msgid "Nearest Frame"
-msgstr "Најближи кадар"
-
-
-msgid "Nearest Second"
-msgstr "Други најближи"
-
-
-msgid "Nearest Marker"
-msgstr "Најближи маркер"
-
-
 msgctxt "Operator"
 msgid "Change Frame"
 msgstr "Промени кадар"
@@ -15508,6 +15488,14 @@ msgid "Snap Selection to Grid"
 msgstr "Изабрано за мрежу"
 
 
+msgid "Black"
+msgstr "Црно"
+
+
+msgid "White"
+msgstr "Бела"
+
+
 msgctxt "Operator"
 msgid "Assign to Vertex Group"
 msgstr "Придружи групу темена"
@@ -15596,10 +15584,6 @@ msgstr "Укључи ручке"
 msgctxt "Operator"
 msgid "Smooth Keys"
 msgstr "Умекшај кључеве"
-
-
-msgid "Cursor Value"
-msgstr "Вредност курсора"
 
 
 msgid "Flatten handles for a smoother transition"
@@ -16774,6 +16758,10 @@ msgstr "Покрени све провере"
 
 msgid "Minimum distance between elements to merge"
 msgstr "Минимално растојање међу елементима за спајање"
+
+
+msgid "Sharp Edges"
+msgstr "Оштре ивице"
 
 
 msgid "Merge selected to other unselected vertices"
@@ -18075,6 +18063,10 @@ msgstr "Брзо крзно"
 
 msgid "Fur Density"
 msgstr "Густина крзна"
+
+
+msgid "Heavy"
+msgstr "Тешко"
 
 
 msgid "View %"
@@ -21868,10 +21860,6 @@ msgid "Geometry Data"
 msgstr "Геометријски подаци"
 
 
-msgid "Transparency"
-msgstr "Провидност"
-
-
 msgid "Paragraph"
 msgstr "Параграф"
 
@@ -22336,6 +22324,10 @@ msgstr "Непријатељ"
 
 msgid "Target Particle System"
 msgstr "Систем честица мете"
+
+
+msgid "Cache Compression"
+msgstr "Компресија"
 
 
 msgid "No compression"
@@ -24355,14 +24347,6 @@ msgid "Dash"
 msgstr "Испрекидано"
 
 
-msgid "Black"
-msgstr "Црно"
-
-
-msgid "White"
-msgstr "Бела"
-
-
 msgid "Alpha Channel"
 msgstr "Алфа канал"
 
@@ -24522,6 +24506,18 @@ msgstr "Без самолепљења"
 
 msgid "Second Step"
 msgstr "Други корак"
+
+
+msgid "Nearest Frame"
+msgstr "Најближи кадар"
+
+
+msgid "Nearest Second"
+msgstr "Други најближи"
+
+
+msgid "Nearest Marker"
+msgstr "Најближи маркер"
 
 
 msgid "Snap to nearest marker"
@@ -26195,6 +26191,10 @@ msgstr "Меш светло"
 
 msgid "Subsurface"
 msgstr "Издељена површ"
+
+
+msgid "Transparency"
+msgstr "Провидност"
 
 
 msgid "Tiles X"
@@ -29639,10 +29639,6 @@ msgstr "СистемЧестица"
 
 msgid "Settings are inside the Physics tab"
 msgstr "Подешавања су у језичку физике"
-
-
-msgid "Sharp Edges"
-msgstr "Оштре ивице"
 
 
 msgid "Coverage"

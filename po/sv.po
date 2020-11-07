@@ -1,7 +1,7 @@
 
 msgid ""
 msgstr ""
-"Project-Id-Version: Blender 2.91.0 Alpha (b'cf778a9e4237')\n"
+"Project-Id-Version: Blender 2.91.0 Beta (b'9e736fc98481')\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-01 00:00:00\n"
 "PO-Revision-Date: \n"
@@ -2898,6 +2898,10 @@ msgid "Source"
 msgstr "Rotera"
 
 
+msgid "Invert"
+msgstr "Invertera"
+
+
 msgid "Expression"
 msgstr "Kompression"
 
@@ -4131,10 +4135,6 @@ msgid "Compression"
 msgstr "Kompression"
 
 
-msgid "Cache Compression"
-msgstr "Kompression"
-
-
 msgid "Delete"
 msgstr "Radera"
 
@@ -4405,10 +4405,6 @@ msgstr "Lökskal"
 
 msgid "Mask Layer"
 msgstr "Maskera lager:"
-
-
-msgid "Invert"
-msgstr "Invertera"
 
 
 msgid "Layer"
@@ -12632,24 +12628,12 @@ msgid "Snap selected keyframes to the current frame"
 msgstr "Markera Länkad"
 
 
-msgid "Nearest Frame"
-msgstr "Starta Spel"
-
-
 msgid "Snap selected keyframes to the nearest (whole) frame (use to fix accidental sub-frame offsets)"
 msgstr "Markera Länkad"
 
 
-msgid "Nearest Second"
-msgstr "Bana"
-
-
 msgid "Snap selected keyframes to the nearest second"
 msgstr "Markera Länkad"
-
-
-msgid "Nearest Marker"
-msgstr "Raderings Meny"
 
 
 msgid "Snap selected keyframes to the nearest marker"
@@ -15640,6 +15624,14 @@ msgid "Snap Selection to Grid"
 msgstr "Markera Länkad"
 
 
+msgid "Black"
+msgstr "Svart"
+
+
+msgid "White"
+msgstr "Vitt"
+
+
 msgctxt "Operator"
 msgid "Deselect Vertex Group"
 msgstr "Markera Rad"
@@ -15780,10 +15772,6 @@ msgstr "Jämn"
 
 msgid "Snap selected keyframes to the chosen times/values"
 msgstr "Markera Länkad"
-
-
-msgid "Cursor Value"
-msgstr "Bild Displist"
 
 
 msgid "Flatten Handles"
@@ -17172,6 +17160,10 @@ msgstr "Markera Rad"
 
 msgid "Select boundary edges around the selected faces"
 msgstr "Markera Länkad"
+
+
+msgid "Sharp Edges"
+msgstr "Markera Rad"
 
 
 msgid "Merge selected to other unselected vertices"
@@ -23700,10 +23692,6 @@ msgid "Geometry Data"
 msgstr "Visa inställningar för kant"
 
 
-msgid "Transparency"
-msgstr "Genomskinlighet"
-
-
 msgid "Path Animation"
 msgstr "Renderings Fönster"
 
@@ -24379,6 +24367,10 @@ msgstr "Bild Displist"
 
 msgid "Target Particle System"
 msgstr "Partikelsystem"
+
+
+msgid "Cache Compression"
+msgstr "Kompression"
 
 
 msgid "No compression"
@@ -26005,10 +25997,6 @@ msgid "Sequence Color Balance Data"
 msgstr "Rendera"
 
 
-msgid "Color balance parameters for a sequence strip and it's modifiers"
-msgstr "Starta rendering av sekvens"
-
-
 msgid "Inverse Gain"
 msgstr "Invers nivå"
 
@@ -26329,14 +26317,6 @@ msgid "Dash"
 msgstr "Streckad"
 
 
-msgid "Black"
-msgstr "Svart"
-
-
-msgid "White"
-msgstr "Vitt"
-
-
 msgid "Length of displaying path, in frames"
 msgstr "Längd i antal rutor:"
 
@@ -26447,6 +26427,18 @@ msgstr "Markera Rad"
 
 msgid "Auto Snap"
 msgstr "Auto Handtag"
+
+
+msgid "Nearest Frame"
+msgstr "Starta Spel"
+
+
+msgid "Nearest Second"
+msgstr "Bana"
+
+
+msgid "Nearest Marker"
+msgstr "Raderings Meny"
 
 
 msgid "Snap to nearest marker"
@@ -28335,6 +28327,10 @@ msgstr "Använd dimma"
 
 msgid "Mesh Light"
 msgstr "Ljus"
+
+
+msgid "Transparency"
+msgstr "Genomskinlighet"
 
 
 msgid "Tiles X"
@@ -31395,10 +31391,6 @@ msgstr "Duplicera"
 
 msgid "Property value not in enumeration"
 msgstr "Redigera egenskapens värde"
-
-
-msgid "Sharp Edges"
-msgstr "Markera Rad"
 
 
 msgid "Create Along Paths"
