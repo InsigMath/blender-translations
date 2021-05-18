@@ -1,7 +1,7 @@
 
 msgid ""
 msgstr ""
-"Project-Id-Version: Blender 2.92.0 Alpha (b'c751d40e070c')\n"
+"Project-Id-Version: Blender 2.93.0 Beta (b'3c7b80ae2ca6')\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-01 00:00:00\n"
 "PO-Revision-Date: 2016-02-27 15:14+0100\n"
@@ -12,6 +12,18 @@ msgstr ""
 "Last-Translator: \n"
 "Language-Team: \n"
 "X-Generator: Poedit 1.8.4"
+
+
+msgid "Name"
+msgstr "Naam"
+
+
+msgid "Type"
+msgstr "Type"
+
+
+msgid "Color"
+msgstr "Kleur"
 
 
 msgid "Action Group"
@@ -48,10 +60,6 @@ msgstr "Vergrendelen"
 
 msgid "Action group is locked"
 msgstr "Actie groep is vergrendeld"
-
-
-msgid "Name"
-msgstr "Naam"
 
 
 msgid "Select"
@@ -150,7 +158,7 @@ msgid "Vector"
 msgstr "Punt"
 
 
-msgid "Vertex"
+msgid "Point"
 msgstr "Punt"
 
 
@@ -158,8 +166,8 @@ msgid "Edge"
 msgstr "Rand"
 
 
-msgid "Point"
-msgstr "Punt"
+msgid "Face"
+msgstr "Vlak"
 
 
 msgid "Curve"
@@ -186,8 +194,8 @@ msgid "Object"
 msgstr "Object"
 
 
-msgid "Color"
-msgstr "Kleur"
+msgid "Target"
+msgstr "Doel"
 
 
 msgid "Split Materials"
@@ -216,10 +224,6 @@ msgstr "Vetkrijt"
 
 msgid "Lights"
 msgstr "Lichten"
-
-
-msgid "Type"
-msgstr "Type"
 
 
 msgid "Speed"
@@ -288,10 +292,6 @@ msgstr "Kleur van Punt"
 
 msgid "Dissolve"
 msgstr "Oplossen"
-
-
-msgid "Resolution"
-msgstr "Resolutie"
 
 
 msgid "Visible"
@@ -369,10 +369,6 @@ msgstr "Skellet"
 
 msgid "Floor"
 msgstr "Vloer"
-
-
-msgid "Target"
-msgstr "Doel"
 
 
 msgid "Active Clip"
@@ -463,8 +459,16 @@ msgid "Acceleration"
 msgstr "Versnelling"
 
 
+msgid "Resolution"
+msgstr "Resolutie"
+
+
 msgid "Output image resolution"
 msgstr "Resolutie uitvoer afbeelding"
+
+
+msgid "Vertex"
+msgstr "Punt"
 
 
 msgid "Group"
@@ -552,10 +556,6 @@ msgid "Freestyle Module"
 msgstr "Freestyle Module"
 
 
-msgid "Step"
-msgstr "Stap"
-
-
 msgid "Grease Pencil Layer"
 msgstr "Vetkrijt laag"
 
@@ -566,10 +566,6 @@ msgstr "Actieve Frame"
 
 msgid "Frames"
 msgstr "Frames"
-
-
-msgid "Parent Object"
-msgstr "Ouder Object"
 
 
 msgid "Layer"
@@ -646,8 +642,16 @@ msgid "Constant"
 msgstr "Constant"
 
 
+msgid "Mask"
+msgstr "Mask"
+
+
 msgid "Mirror Modifier"
 msgstr "Spiegel Aanpasser"
+
+
+msgid "Step"
+msgstr "Stap"
 
 
 msgid "Active Layer"
@@ -674,8 +678,8 @@ msgid "Sharp"
 msgstr "Scherp"
 
 
-msgid "Mask"
-msgstr "Mask"
+msgid "Inverse Square"
+msgstr "Inverse Wortel"
 
 
 msgid "Rotate"
@@ -746,10 +750,6 @@ msgid "Edit Format"
 msgstr "Bewerk Formaat"
 
 
-msgid "Font size"
-msgstr "Grote lettertype"
-
-
 msgid "Underline Thickness"
 msgstr "Dikte onderstreping"
 
@@ -784,10 +784,6 @@ msgstr "Film"
 
 msgid "Falloff Type"
 msgstr "Type Afvlakking"
-
-
-msgid "Inverse Square"
-msgstr "Inverse Wortel"
 
 
 msgid "Size Y"
@@ -1172,10 +1168,6 @@ msgid "Edge Data"
 msgstr "Rand Gegevens"
 
 
-msgid "Face"
-msgstr "Vlak"
-
-
 msgid "Normals"
 msgstr "Normalen"
 
@@ -1186,10 +1178,6 @@ msgstr "Selecteer Vergelijkbaar"
 
 msgid "Hooks"
 msgstr "Haken"
-
-
-msgid "Make Links"
-msgstr "Maak Koppelingen"
 
 
 msgid "Quick Effects"
@@ -1750,10 +1738,6 @@ msgid "Clear Preview Range"
 msgstr "Maak Preview Bereik Leeg"
 
 
-msgid "Clear Preview Range"
-msgstr "Maak Preview Bereik Leeg"
-
-
 msgctxt "Operator"
 msgid "Set Preview Range"
 msgstr "Zet Preview Bereik"
@@ -1819,8 +1803,8 @@ msgstr "Selecteer Hiearchie"
 
 
 msgctxt "Operator"
-msgid "Flip Active/Selected Bone"
-msgstr "Flip Actieve/Geselecteerde Botten"
+msgid "Select Mirror"
+msgstr "Selecteer Spiegel"
 
 
 msgctxt "Operator"
@@ -2274,11 +2258,6 @@ msgstr "Vorige Map"
 
 
 msgctxt "Operator"
-msgid "Refresh Filelist"
-msgstr "Ververs Lijst met Bestanden"
-
-
-msgctxt "Operator"
 msgid "Rename File or Directory"
 msgstr "Hernoem Bestand of Map"
 
@@ -2351,16 +2330,6 @@ msgstr "Plak Tekst"
 msgctxt "Operator"
 msgid "Paste File"
 msgstr "Plak Bestand"
-
-
-msgctxt "Operator"
-msgid "Add Textbox"
-msgstr "Voeg Tekstbox Toe"
-
-
-msgctxt "Operator"
-msgid "Remove Textbox"
-msgstr "Verwijder Tekstbox"
 
 
 msgctxt "Operator"
@@ -2634,11 +2603,6 @@ msgstr "Selecteer Rapport"
 msgctxt "Operator"
 msgid "Make Regular"
 msgstr "Maak Regulier"
-
-
-msgctxt "Operator"
-msgid "Select Mirror"
-msgstr "Selecteer Spiegel"
 
 
 msgctxt "Operator"
@@ -3009,11 +2973,6 @@ msgstr "Dupliceer Gekoppeld"
 
 
 msgctxt "Operator"
-msgid "Toggle Editmode"
-msgstr "Bewerkmodus Aan/Uit"
-
-
-msgctxt "Operator"
 msgid "Add Empty"
 msgstr "Voeg leeg object toe"
 
@@ -3072,11 +3031,6 @@ msgstr "Samenvoegen"
 
 msgid "Join selected objects into active object"
 msgstr "Voeg geslecteerde obecten samen in actief object"
-
-
-msgctxt "Operator"
-msgid "Link Data"
-msgstr "Koppel Gegevens"
 
 
 msgctxt "Operator"
@@ -3344,10 +3298,6 @@ msgstr "Maak Lokaal"
 
 msgid "Reload"
 msgstr "Herlaad"
-
-
-msgid "Toggle render use"
-msgstr "Render gebruik aan/uit"
 
 
 msgid "Select Hierarchy"
@@ -3751,6 +3701,10 @@ msgid "Next Strip"
 msgstr "Volgende Strip"
 
 
+msgid "Property"
+msgstr "Eigenschap"
+
+
 msgctxt "Operator"
 msgid "Swap Strip"
 msgstr "Ruil Strip Om"
@@ -4011,6 +3965,11 @@ msgstr "Naai"
 
 
 msgctxt "Operator"
+msgid "Select Menu"
+msgstr "Selecteer Menu"
+
+
+msgctxt "Operator"
 msgid "Fly Navigation"
 msgstr "Vlieg Navigatie"
 
@@ -4026,11 +3985,6 @@ msgstr "Draai de view"
 
 msgid "List objects under the mouse (object mode only)"
 msgstr "Lijst van objecten onder de muis (alleen object modus)"
-
-
-msgctxt "Operator"
-msgid "Select Menu"
-msgstr "Selecteer Menu"
 
 
 msgctxt "Operator"
@@ -4095,10 +4049,6 @@ msgstr "Geheugen Statistieken"
 
 msgid "Open a Blender file"
 msgstr "Open een Blender Bestand"
-
-
-msgid "Property"
-msgstr "Eigenschap"
 
 
 msgctxt "Operator"
@@ -4184,10 +4134,6 @@ msgstr "Interface"
 msgctxt "Operator"
 msgid "Save System Info"
 msgstr "Systeem Informatie Opslaan"
-
-
-msgid "Open a website in the web-browser"
-msgstr "Opent een website in  de web-browser"
 
 
 msgctxt "Operator"
@@ -4321,6 +4267,10 @@ msgid "Continue"
 msgstr "Verder"
 
 
+msgid "Manual"
+msgstr "Handleiding"
+
+
 msgid "Interface Font"
 msgstr "Interface Lettertype"
 
@@ -4331,10 +4281,6 @@ msgstr "Taal gebruikt voor vertaling"
 
 msgid "Translate Interface"
 msgstr "Vertaal de Interface"
-
-
-msgid "Manual"
-msgstr "Handleiding"
 
 
 msgid "Apply Scale"
@@ -4720,6 +4666,16 @@ msgstr "Bewerken"
 
 
 msgctxt "Operator"
+msgid "Open..."
+msgstr "Open..."
+
+
+msgctxt "Operator"
+msgid "Manual"
+msgstr "Handleiding"
+
+
+msgctxt "Operator"
 msgid "Update Paths"
 msgstr "Update Paden"
 
@@ -4752,6 +4708,10 @@ msgstr "Verwijder"
 msgctxt "Operator"
 msgid "Add Image"
 msgstr "Voeg Afbeelding Toe"
+
+
+msgid "Endpoint"
+msgstr "Eindpunt"
 
 
 msgctxt "Operator"
@@ -4882,10 +4842,6 @@ msgid "Old"
 msgstr "Oud"
 
 
-msgid "Endpoint"
-msgstr "Eindpunt"
-
-
 msgctxt "Operator"
 msgid "Remove Canvas"
 msgstr "Verwijder Canvas"
@@ -5010,11 +4966,6 @@ msgstr "Nieuw"
 
 
 msgctxt "Operator"
-msgid "Open..."
-msgstr "Open..."
-
-
-msgctxt "Operator"
 msgid "Unpin"
 msgstr "Haal Prikker Los"
 
@@ -5124,10 +5075,6 @@ msgid "Alpha Under"
 msgstr "Alpha Onder"
 
 
-msgid "Show Grease Pencil"
-msgstr "Toon Vetkrijt"
-
-
 msgctxt "Operator"
 msgid "Top"
 msgstr "Bovenkant"
@@ -5146,11 +5093,6 @@ msgstr "Dupliceer Markering"
 msgctxt "Operator"
 msgid "Quit"
 msgstr "Sluit af"
-
-
-msgctxt "Operator"
-msgid "Manual"
-msgstr "Handleiding"
 
 
 msgid "Author:"
@@ -5408,16 +5350,6 @@ msgstr "Op Geselecteerde Sleutelframes"
 
 
 msgctxt "Operator"
-msgid "Size X"
-msgstr "Grote X"
-
-
-msgctxt "Operator"
-msgid "Size Y"
-msgstr "Grote Y"
-
-
-msgctxt "Operator"
 msgid "Quick Edit"
 msgstr "Snel Bewerken"
 
@@ -5434,10 +5366,6 @@ msgstr "var"
 
 msgid "RenderView"
 msgstr "RenderView"
-
-
-msgid "Add Point"
-msgstr "Voeg Punt Toe"
 
 
 msgctxt "Curve"
@@ -5764,16 +5692,6 @@ msgstr "TODO: wanneer gebeurt dit?"
 
 msgid "No valid inputs to swap"
 msgstr "Geen geldige invoers om om te wisselen"
-
-
-msgctxt "Operator"
-msgid "Page Up"
-msgstr "Vorige Pagina"
-
-
-msgctxt "Operator"
-msgid "Page Down"
-msgstr "Volgende Pagina"
 
 
 msgid "Mean Crease:"

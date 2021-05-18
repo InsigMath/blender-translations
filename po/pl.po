@@ -1,7 +1,7 @@
 
 msgid ""
 msgstr ""
-"Project-Id-Version: Blender 2.92.0 Alpha (b'c751d40e070c')\n"
+"Project-Id-Version: Blender 2.93.0 Beta (b'3c7b80ae2ca6')\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-01 00:00:00\n"
 "PO-Revision-Date: 2017-08-26 11:13+0200\n"
@@ -12,6 +12,26 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 1.8.7.1\n"
 "Language-Team: Polish Blender Course <piotao@polskikursblendera.pl>"
+
+
+msgid "Valid"
+msgstr "Poprawny"
+
+
+msgid "Name"
+msgstr "Nazwa"
+
+
+msgid "Type"
+msgstr "Rodzaj"
+
+
+msgid "Color"
+msgstr "Kolor"
+
+
+msgid "Value"
+msgstr "Wartość"
 
 
 msgid "Action Group"
@@ -144,10 +164,6 @@ msgstr "Blokada"
 
 msgid "Action group is locked"
 msgstr "Grupa akcji jest zablokowana"
-
-
-msgid "Name"
-msgstr "Nazwa"
 
 
 msgid "Select"
@@ -670,6 +686,10 @@ msgid "Active Bone"
 msgstr "Aktywna Kość"
 
 
+msgid "Description"
+msgstr "Opis"
+
+
 msgid "Vector"
 msgstr "Wektorowy"
 
@@ -786,16 +806,8 @@ msgid "None"
 msgstr "Nic"
 
 
-msgid "Color"
-msgstr "Kolor"
-
-
 msgid "Save Mode"
 msgstr "Tryb zapisu"
-
-
-msgid "Choose how to save the baking map"
-msgstr "Wybierz jak zapisać wyliczoną mapę"
 
 
 msgid "Internal"
@@ -808,6 +820,10 @@ msgstr "Zewnętrznie"
 
 msgid "Save the baking map in an external file"
 msgstr "Zapis wyliczoną mapę do pliku zewnętrznego"
+
+
+msgid "Target"
+msgstr "Cel"
 
 
 msgid "Automatic Name"
@@ -1128,10 +1144,6 @@ msgstr "Reguły boidów"
 
 msgid "Boid rule name"
 msgstr "Nazwa reguły boidów"
-
-
-msgid "Type"
-msgstr "Rodzaj"
 
 
 msgid "Goal"
@@ -1722,10 +1734,6 @@ msgid "Select Tail"
 msgstr "Zaznacz koniec"
 
 
-msgid "Bone is always drawn as Wireframe regardless of viewport draw mode (useful for non-obstructive custom bone shapes)"
-msgstr "Kość jest zawsze rysowana jako siatka niezależnie od ustawień rysowania dla całego widoku (przydatne dla mało przeszkadzających własnych kształtów kości)"
-
-
 msgid "Tail"
 msgstr "Koniec"
 
@@ -1876,10 +1884,6 @@ msgstr "Odcień"
 
 msgid "Saturation"
 msgstr "Nasycenie"
-
-
-msgid "Value"
-msgstr "Wartość"
 
 
 msgid "Background Image"
@@ -2152,10 +2156,6 @@ msgstr "Włącza obliczanie kolizji z samym sobą"
 
 msgid "Selfcollision Vertex Group"
 msgstr "Grupa wierzchołków dla samo-kolizji"
-
-
-msgid "Vertex group to define vertices which are not used during self collisions"
-msgstr "Grupa wierzchołków, która określa które wierzchołki nie będą używane podczas obliczenia kolizji z samym sobą"
 
 
 msgid "Cloth Settings"
@@ -2578,22 +2578,6 @@ msgid "Input Color Space"
 msgstr "Wejściowa przestrzeń kolorów"
 
 
-msgid "Rec. 709 (Full Range), Blender native linear space"
-msgstr "Domyślna przestrzeń liniowa Blendera Rec.709 (pełen zakres)"
-
-
-msgid "ACES linear space"
-msgstr "Przestrzeń liniowa ACES"
-
-
-msgid "Color space used for images which contains non-color data (i,e, normal maps)"
-msgstr "Przestrzeń liniowa używana dla obrazków, które zawierają dane nie będące kolorami (np. mapy wektorów normalnych)"
-
-
-msgid "Standard RGB Display Space"
-msgstr "Standardowa przestrzeń kolorów RGB"
-
-
 msgid "Color Space"
 msgstr "Przestrzeń kolorów"
 
@@ -2903,10 +2887,6 @@ msgid "Constraint was added in this proxy instance (i.e. did not belong to sourc
 msgstr "Ogranicznik został dodany w tej instancji proxy (np. nie należał do źródłowego szkieletu)"
 
 
-msgid "Valid"
-msgstr "Poprawny"
-
-
 msgid "Constraint has valid settings and can be evaluated"
 msgstr "Ogranicznik ma prawidłowe ustawienia i może zostać wyliczony"
 
@@ -2961,6 +2941,10 @@ msgstr "Ogranicznik jest stosowany w przestrzeni lokalnych współrzędnych obie
 
 msgid "Constraint's panel is expanded in UI"
 msgstr "Pokaż rozwinięty panel ograniczników"
+
+
+msgid "Sub-Target"
+msgstr "Cel podrzędny"
 
 
 msgid "Target Space"
@@ -3211,14 +3195,6 @@ msgid "Minimum value for target channel range"
 msgstr "Minimalna wartość dla docelowego zakresu kanału"
 
 
-msgid "Sub-Target"
-msgstr "Cel podrzędny"
-
-
-msgid "Target"
-msgstr "Cel"
-
-
 msgid "Target object"
 msgstr "Obiekt docelowy"
 
@@ -3437,10 +3413,6 @@ msgstr "Kopiuje położenie obiektu docelowego"
 
 msgid "Head/Tail"
 msgstr "Głowa/Ogon"
-
-
-msgid "Target along length of bone: Head=0, Tail=1"
-msgstr "Cel wzdłuż długości kości: głowa=0, ogon=1"
 
 
 msgid "Invert X"
@@ -4131,10 +4103,6 @@ msgid "Number of Targets"
 msgstr "Liczba obiektów"
 
 
-msgid "Usually only 1-3 are needed"
-msgstr "Zwykle potrzebne są 1-3"
-
-
 msgid "Target Objects"
 msgstr "Obiekty docelowe"
 
@@ -4779,10 +4747,6 @@ msgid "Include visualization of curve related animation data"
 msgstr "Pokaż wizualizację krzywych związanych z danymi animacji"
 
 
-msgid "Show Datablock Filters"
-msgstr "Pokaż filtry bloków danych"
-
-
 msgid "Show options for whether channels related to certain types of data are included"
 msgstr "Pokaż opcje czy kanały powiązane z określonym typem danych są dołączone"
 
@@ -5299,10 +5263,6 @@ msgid "Bone is not able to be transformed when in Edit Mode"
 msgstr "Kość nie może być transformowana gdy znajduje się w Trybie Edycji"
 
 
-msgid "Editbone Matrix"
-msgstr "Macierz edycji kości"
-
-
 msgid "Parent edit bone (in same Armature)"
 msgstr "Edytuj kość nadrzędną (w tym samym szkielecie)"
 
@@ -5433,10 +5393,6 @@ msgstr "Definicja elementów wyliczeniowych"
 
 msgid "Definition of a choice in an RNA enum property"
 msgstr "Definicja wyboru własności w strukturze RNA"
-
-
-msgid "Description"
-msgstr "Opis"
 
 
 msgid "Description of the item's purpose"
@@ -5748,24 +5704,12 @@ msgid "Max Rate"
 msgstr "Maksymalna przepustowość"
 
 
-msgid "Rate control: max rate (kb/s)"
-msgstr "Kontrola przepływu bitów: maksymalna przepustowość (kb/s)"
-
-
 msgid "Min Rate"
 msgstr "Minimalna przepustowość"
 
 
-msgid "Rate control: min rate (kb/s)"
-msgstr "Kontrola przepustowości: minimalny przepływ bitów (kb/s)"
-
-
 msgid "Mux Rate"
 msgstr "Mux Rate"
-
-
-msgid "Mux rate (bits/s(!))"
-msgstr "Przepustowość miksowania strumieni audio i wideo (Mux=Multiplex) w bitach na sekundę"
 
 
 msgid "Mux Packet Size"
@@ -5790,10 +5734,6 @@ msgstr "Bezstratne wyjście"
 
 msgid "Use lossless output for video streams"
 msgstr "Użyj bezstratnego kodowania strumieni wideo"
-
-
-msgid "Video bitrate (kb/s)"
-msgstr "Bitrate wideo (kb/s)"
 
 
 msgid "F-Modifier"
@@ -5856,10 +5796,6 @@ msgid "Generate a curve using standard math functions such as sin and cos"
 msgstr "Generuje krzywą używając standardowych funkcji matematycznych takich jak sin lub cos"
 
 
-msgid "Reshape F-Curve values - e.g. change amplitude of movements"
-msgstr "Zmienia kształt krzywej-F za pomocą przeskalowania lub przesunięcia"
-
-
 msgid "Cyclic extend/repeat keyframe sequence"
 msgstr "Cyklicznie rozszerza/powtarza sekwencję klatek kluczowych"
 
@@ -5870,10 +5806,6 @@ msgstr "Dodaje pseudolosowy szum do obecnej krzywej-F"
 
 msgid "Restrict maximum and minimum values of F-Curve"
 msgstr "Ogranicza maksymalne i minimalna zakresy krzywej-F"
-
-
-msgid "Snap values to nearest grid-step - e.g. for a stop-motion look"
-msgstr "Dopasowuje wartości krzywej do najbliższego oczka siatki dla uzyskania zmian skokowych."
 
 
 msgid "Use Influence"
@@ -6008,10 +5940,6 @@ msgid "Built-In Function F-Modifier"
 msgstr "Modyfikator-F dla funkcji wbudowanej"
 
 
-msgid "Generate values using a Built-In Function"
-msgstr "Generuj wartości używając funkcji wbudowanej"
-
-
 msgid "Amplitude"
 msgstr "Amplituda"
 
@@ -6046,10 +5974,6 @@ msgstr "Znormalizowany sinus"
 
 msgid "sin(x) / x"
 msgstr "sin(x)/x"
-
-
-msgid "Phase Multiplier"
-msgstr "Mnożnik fazy"
 
 
 msgid "Scale factor determining the 'speed' of the function"
@@ -6200,10 +6124,6 @@ msgid "Frames"
 msgstr "Klatki"
 
 
-msgid "Parent Object"
-msgstr "Obiekt rodzica"
-
-
 msgid "Onion Skinning"
 msgstr "Pokrywanie wielowarstwowe"
 
@@ -6216,16 +6136,16 @@ msgid "Flat"
 msgstr "Płaskie"
 
 
-msgid "Groups"
-msgstr "Grupy"
-
-
 msgid "Window"
 msgstr "Okno"
 
 
 msgid "Lattice"
 msgstr "Kratownica"
+
+
+msgid "Mask"
+msgstr "Maska"
 
 
 msgid "Fixed"
@@ -6236,16 +6156,16 @@ msgid "Library"
 msgstr "Biblioteka"
 
 
+msgid "Groups"
+msgstr "Grupy"
+
+
 msgid "Envelope"
 msgstr "Obwiednia"
 
 
 msgid "Local"
 msgstr "Lokalnie"
-
-
-msgid "Mask"
-msgstr "Maska"
 
 
 msgid "Brush"
@@ -6401,6 +6321,10 @@ msgid "Distort"
 msgstr "Zniekształć"
 
 
+msgid "Mesh"
+msgstr "Siatka"
+
+
 msgid "Python"
 msgstr "Python"
 
@@ -6415,10 +6339,6 @@ msgstr "Plik"
 
 msgid "External Data"
 msgstr "Zewnętrzne Dane"
-
-
-msgid "Mesh"
-msgstr "Siatka"
 
 
 msgid "Ball"
@@ -6587,10 +6507,6 @@ msgid "Add a constraint to the active object"
 msgstr "Dodaj ogranicznik do aktywnego obiektu"
 
 
-msgid "Clear all the constraints for the active Object only"
-msgstr "Usuń ograniczniki tylko z aktywnego obiektu"
-
-
 msgid "Delete selected objects"
 msgstr "Usuń zaznaczone obiekty"
 
@@ -6609,6 +6525,10 @@ msgstr "Paleta"
 
 msgid "Hinge"
 msgstr "Zawias"
+
+
+msgid "Property"
+msgstr "Właściwość"
 
 
 msgctxt "Operator"
@@ -6631,10 +6551,6 @@ msgstr "Przypięty"
 
 msgid "Play"
 msgstr "Start"
-
-
-msgid "Property"
-msgstr "Właściwość"
 
 
 msgid "Property Name"
@@ -6727,6 +6643,10 @@ msgstr "Animowana"
 
 msgid "Unknown"
 msgstr "Nieznany"
+
+
+msgid "Active object is not a mesh"
+msgstr "Aktywny obiekt nie jest siatką"
 
 
 msgid "To"
@@ -6988,6 +6908,10 @@ msgstr "Nie można spakować pliku absolutnego: '%s'"
 
 msgid "Cannot unpack individual Library file, '%s'"
 msgstr "Nie można rozpakować pliku indywidualnej biblioteki, '%s'"
+
+
+msgid "ParticleSystem"
+msgstr "SystemCząsteczek"
 
 
 msgid "ParticleSettings"
@@ -7307,60 +7231,8 @@ msgid "Could not paste driver, as RNA path is invalid for the given ID (ID = %s,
 msgstr "Nie można było wkleić sterownika ponieważ ścieżka RNA jest nieprawidłowa dla danego ID (ID = %s, path = %s)"
 
 
-msgid "Poly Order:"
-msgstr "Porządek poligonów:"
-
-
-msgid "Before:"
-msgstr "Przed:"
-
-
-msgid "After:"
-msgstr "Po:"
-
-
-msgid "Control Points:"
-msgstr "Punkt Kontrolny"
-
-
-msgid "Add Point"
-msgstr "Dodaj Punkt"
-
-
-msgid "Fra:"
-msgstr "Fra:"
-
-
-msgid "Min:"
-msgstr "Min:"
-
-
-msgid "Max:"
-msgstr "Maks:"
-
-
 msgid "<Unknown Modifier>"
 msgstr "<Nieznany Modyfikator>"
-
-
-msgid "'Order' of the Polynomial (for a polynomial with n terms, 'order' is n-1)"
-msgstr ";Porządek' Wielomianowych (dla wielomianowych z n określeniami, 'porządek' wynosi n-1)"
-
-
-msgid "Coefficient for polynomial"
-msgstr "Współczynnik dla wielomianowych"
-
-
-msgid "Power of x"
-msgstr "Potęga x"
-
-
-msgid "Coefficient of x"
-msgstr "Współczynnik dla x"
-
-
-msgid "Second coefficient"
-msgstr "Drugi współczynnik"
 
 
 msgid "Add a new control-point to the envelope on the current frame"
@@ -7369,10 +7241,6 @@ msgstr "Dodaj nowy punkt kontrolny do otoczki na obecnej klatce"
 
 msgid "Delete envelope control point"
 msgstr "Usuń punkt kontrolny otoczki"
-
-
-msgid "Delete F-Curve Modifier"
-msgstr "Usuń Modyfikator krzywej-F"
 
 
 msgid "No animation data in buffer to paste"
@@ -7819,6 +7687,14 @@ msgid "No active area"
 msgstr "Brak aktywnego obszaru"
 
 
+msgid "Easing (by strength)"
+msgstr "Łagodzenie (przez siłę)"
+
+
+msgid "Dynamic Effects"
+msgstr "Efekt Dynamiczny"
+
+
 msgid "Grease Pencil operator is already active"
 msgstr "Operator Szkicownik jest już aktywny"
 
@@ -7896,11 +7772,6 @@ msgstr "Resetuj wszystko do domyślnych"
 msgctxt "Operator"
 msgid "Reset Single to Default Value"
 msgstr "Resetuj pojedynczy do domyślnego"
-
-
-msgctxt "Operator"
-msgid "Unset"
-msgstr "Odłącz"
 
 
 msgctxt "Operator"
@@ -8076,14 +7947,6 @@ msgstr "Resetuj krzywą"
 
 msgid "Anim Player"
 msgstr "Odtwarzacz Animacji"
-
-
-msgid "Display number of users of this data (click to make a single-user copy)"
-msgstr "Wyświetl liczbę użytkowników tych danych (kliknij by utworzyć unikalną kopię)"
-
-
-msgid "Packed File, click to unpack"
-msgstr "Plik spakowany, kliknij by rozpakować"
 
 
 msgid "Reset operator defaults"
@@ -8609,10 +8472,6 @@ msgid "Cannot join while in edit mode"
 msgstr "Nie można złączyć w trybie edycji"
 
 
-msgid "Active object is not a mesh"
-msgstr "Aktywny obiekt nie jest siatką"
-
-
 msgid "Active object is not a selected mesh"
 msgstr "Aktywny obiekt nie jest zaznaczoną siatką"
 
@@ -8699,16 +8558,20 @@ msgid "No valid selected objects"
 msgstr "Brak prawidłowych zaznaczonych obiektów"
 
 
-msgid "Current render engine does not support baking"
-msgstr "Obecny silnik renderujący nie obsługuje wypalania"
-
-
 msgid "No active image found, add a material or bake to an external file"
 msgstr "Nie odnaleziono aktywnego obrazu, dodaj materiał lub wypal do pliku zewnętrznego"
 
 
 msgid "No active image found, add a material or bake without the Split Materials option"
 msgstr "Nie odnaleziono aktywnego obrazu, dodaj materiał lub wypal bez opcji Podziel Materiał"
+
+
+msgid "Baking map saved to internal image, save it externally or pack it"
+msgstr "Wypalona mapa zapisana do obrazu wewnętrznego, zapisz ją zewnętrznie lub spakuj"
+
+
+msgid "Current render engine does not support baking"
+msgstr "Obecny silnik renderujący nie obsługuje wypalania"
 
 
 msgid "No valid cage object"
@@ -8721,10 +8584,6 @@ msgstr "Nieprawidłowy obiekt klatki, siatka klatki musi posiadać tę samą lic
 
 msgid "Error handling selected objects"
 msgstr "Błąd przy działaniu na zaznaczonych obiektach"
-
-
-msgid "Baking map saved to internal image, save it externally or pack it"
-msgstr "Wypalona mapa zapisana do obrazu wewnętrznego, zapisz ją zewnętrznie lub spakuj"
 
 
 msgid "Object \"%s\" is not a mesh"
@@ -8755,18 +8614,6 @@ msgid "Uninitialized image %s"
 msgstr "Nie zainicjowany obraz %s"
 
 
-msgid "No UV layer named \"%s\" found in the object \"%s\""
-msgstr "Nie odnaleziono warstwy UV o nazwie \"%s\" w obiekcie \"%s\""
-
-
-msgid "Error baking from object \"%s\""
-msgstr "Problem z wypaleniem z obiektu \"%s\""
-
-
-msgid "Problem baking object \"%s\""
-msgstr "Problem wypalenia obiektu \"%s\""
-
-
 msgid "Problem saving the bake map internally for object \"%s\""
 msgstr "Problem zapisu wypalonej mapy wewnętrznie dla obiektu \"%s\""
 
@@ -8777,6 +8624,18 @@ msgstr "Problem zapisu wypalonej mapy w \"%s\""
 
 msgid "Baking map written to \"%s\""
 msgstr "Wypalenie mapy zapisane do \"%s'\""
+
+
+msgid "No UV layer named \"%s\" found in the object \"%s\""
+msgstr "Nie odnaleziono warstwy UV o nazwie \"%s\" w obiekcie \"%s\""
+
+
+msgid "Error baking from object \"%s\""
+msgstr "Problem z wypaleniem z obiektu \"%s\""
+
+
+msgid "Problem baking object \"%s\""
+msgstr "Problem wypalenia obiektu \"%s\""
 
 
 msgid "Add IK"
@@ -10191,10 +10050,6 @@ msgid "Node tree type %s undefined"
 msgstr "Typ drzewa nodów %s nie zdefiniowany"
 
 
-msgid "Outputs:"
-msgstr "Wyjścia:"
-
-
 msgid "Sockets"
 msgstr "Złącza"
 
@@ -10300,10 +10155,6 @@ msgid "(empty)"
 msgstr "(pusty)"
 
 
-msgid "Modal map, not yet"
-msgstr "Modal map, jeszcze nie"
-
-
 msgid "Can't reload with running modal operators"
 msgstr "Nie można załadować ponownie gdy działa operator modalny"
 
@@ -10362,16 +10213,6 @@ msgstr "Nowy efekt potrzebuje paska źródłowego"
 
 msgid "No active sequence!"
 msgstr "Brak aktywnej sekwencji!"
-
-
-msgctxt "Operator"
-msgid "Page Up"
-msgstr "Strona w górę"
-
-
-msgctxt "Operator"
-msgid "Page Down"
-msgstr "Strona w dół"
 
 
 msgid "File Modified Outside and Inside Blender"
@@ -10634,10 +10475,6 @@ msgid "along %s X"
 msgstr "wzdłuż X - %s"
 
 
-msgid "locking %s X"
-msgstr "blokada X - %s"
-
-
 msgid "along Y"
 msgstr "wzdłuż Y"
 
@@ -10646,16 +10483,20 @@ msgid "along %s Y"
 msgstr "wzdłuż Y - %s"
 
 
-msgid "locking %s Y"
-msgstr "blokada Y - %s"
-
-
 msgid "along Z"
 msgstr "wzdłuż Z"
 
 
 msgid "along %s Z"
 msgstr "wzdłuż Z - %s"
+
+
+msgid "locking %s X"
+msgstr "blokada X - %s"
+
+
+msgid "locking %s Y"
+msgstr "blokada Y - %s"
 
 
 msgid "locking %s Z"
@@ -10912,10 +10753,6 @@ msgstr "Ścinanie: %s %s"
 
 msgid "Shear: %.3f %s (Press X or Y to set shear axis)"
 msgstr "Ścinanie: %.3f %s (Wciśnij X lub Y dla ustalenia osi ścinania)"
-
-
-msgid "Shrink/Fatten:"
-msgstr "Kurcz/Rozszerz"
 
 
 msgid " or Alt) Even Thickness %s"
@@ -11175,14 +11012,6 @@ msgid "Relationship"
 msgstr "Zależność"
 
 
-msgid "Easing (by strength)"
-msgstr "Łagodzenie (przez siłę)"
-
-
-msgid "Dynamic Effects"
-msgstr "Efekt Dynamiczny"
-
-
 msgid "Bezier spline cannot have points added"
 msgstr "Splajn Bezier nie pozwala na dodanie punktów"
 
@@ -11326,10 +11155,6 @@ msgstr "Nie udało się załadować klipu filmowego"
 
 msgid "Object does not have geometry data"
 msgstr "Obiekt nie posiada danych geometrii"
-
-
-msgid "Scene '%s' is the last, cannot be removed"
-msgstr "Scena '%s' jest ostatnia, nie może zostać usunięta"
 
 
 msgid "ID type '%s' is not valid for an object"
@@ -11496,10 +11321,6 @@ msgid "Object '%s' could not create internal data for finding nearest point"
 msgstr "Obiekt '%s' nie zdołał stworzyć wewnętrznych danych do znalezienia najbliższego punktu"
 
 
-msgid "ParticleSystem"
-msgstr "SystemCząsteczek"
-
-
 msgid "Mesh has no UV data"
 msgstr "Siatka nie posiada danych UV"
 
@@ -11559,10 +11380,6 @@ msgstr "Typ sekwencji nie obsługuje modyfikatorów"
 
 msgid "Modifier was not found in the stack"
 msgstr "Nie odnaleziono modyfikatora w stosie"
-
-
-msgid "Sequences.new_image: unable to open image file"
-msgstr "Sequences.new_image: otwarcie pliku obrazka niemożliwe"
 
 
 msgid "Sequences.new_sound: unable to open sound file"

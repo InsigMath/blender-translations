@@ -1,7 +1,7 @@
 
 msgid ""
 msgstr ""
-"Project-Id-Version: Blender 2.92.0 Alpha (b'c751d40e070c')\n"
+"Project-Id-Version: Blender 2.93.0 Beta (b'3c7b80ae2ca6')\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-01 00:00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
@@ -11,6 +11,22 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit"
+
+
+msgid "Name"
+msgstr "Izena"
+
+
+msgid "Type"
+msgstr "Mota"
+
+
+msgid "Color"
+msgstr "Kolorea"
+
+
+msgid "Value"
+msgstr "Balioa"
 
 
 msgid "Action Group"
@@ -137,10 +153,6 @@ msgid "Action group is locked"
 msgstr "Akzio taldea blokeatuta dago"
 
 
-msgid "Name"
-msgstr "Izena"
-
-
 msgid "Select"
 msgstr "Aukera"
 
@@ -261,16 +273,12 @@ msgid "Indirect"
 msgstr "Zeharkakoa"
 
 
-msgid "Color"
-msgstr "Kolorea"
+msgid "Target"
+msgstr "Helburua"
 
 
 msgid "Weight"
 msgstr "Pisua"
-
-
-msgid "Type"
-msgstr "Mota"
 
 
 msgid "Distance"
@@ -309,10 +317,6 @@ msgid "Normal"
 msgstr "Normala"
 
 
-msgid "Value"
-msgstr "Balioa"
-
-
 msgid "Look"
 msgstr "Ikusi"
 
@@ -323,10 +327,6 @@ msgstr "Desgaitu"
 
 msgid "Armature"
 msgstr "Eskeletoa"
-
-
-msgid "Target"
-msgstr "Helburua"
 
 
 msgid "Z"
@@ -417,10 +417,6 @@ msgid "Grid"
 msgstr "Sarea"
 
 
-msgid "Groups"
-msgstr "Taldeak"
-
-
 msgid "Window"
 msgstr "Leihoa"
 
@@ -437,6 +433,10 @@ msgstr "Kurba"
 msgctxt "Curve"
 msgid "Sphere"
 msgstr "Esfera"
+
+
+msgid "Groups"
+msgstr "Taldeak"
 
 
 msgid "Visible Layers"
@@ -631,6 +631,10 @@ msgstr "X Ardatza"
 
 msgid "Y Axis"
 msgstr "Y Ardatza"
+
+
+msgid "Original"
+msgstr "Jatorrizkoa"
 
 
 msgid "Layer Weight"
@@ -1057,11 +1061,6 @@ msgid "Move to previous folder"
 msgstr "Aurreko karpetara mugitu"
 
 
-msgctxt "Operator"
-msgid "Refresh Filelist"
-msgstr "Fitxategi-lista freskatu"
-
-
 msgid "Refresh the file list"
 msgstr "Fitxategi-lista freskatu"
 
@@ -1091,10 +1090,6 @@ msgstr "Hautatu edo ez-hautatu fitxategi guztiak"
 msgctxt "Operator"
 msgid "Select Directory"
 msgstr "Direktorioa hautatu"
-
-
-msgid "Prev"
-msgstr "Aurrekoa"
 
 
 msgid "Next"
@@ -1129,10 +1124,6 @@ msgstr "Jatorrizko kokapenean idatzi fitxategiak (berridatzi existitzen diren fi
 msgctxt "Operator"
 msgid "Unpack Item"
 msgstr "Artikulua despaketatu"
-
-
-msgid "ID name"
-msgstr "ID izena"
 
 
 msgid "Name of ID block to unpack"
@@ -1304,22 +1295,8 @@ msgid "Paste contents from file"
 msgstr "Fitxategitik edukia itsatsi"
 
 
-msgctxt "Operator"
-msgid "Add Textbox"
-msgstr "Testu kaxa gehitu"
-
-
 msgid "Add a new text box"
 msgstr "Testu kaxa berria gehitu"
-
-
-msgctxt "Operator"
-msgid "Remove Textbox"
-msgstr "Testu kaxa ezabatu"
-
-
-msgid "Remove the textbox"
-msgstr "Testu kaxa ezabatu"
 
 
 msgid "The current text box"
@@ -1365,10 +1342,6 @@ msgstr "Egokitzapenik ez"
 
 msgid "Ignore timing"
 msgstr "Egokitzapena baztertu"
-
-
-msgid "Original"
-msgstr "Jatorrizkoa"
 
 
 msgid "Normalize Weight"
@@ -1461,10 +1434,6 @@ msgid "Set Cursor"
 msgstr "Kurtsorea finkatu"
 
 
-msgid "Lowest frequency"
-msgstr "Frekuentzia baxuena"
-
-
 msgid "Black Point"
 msgstr "Puntu Beltza"
 
@@ -1482,22 +1451,6 @@ msgid "Invert image's channels"
 msgstr "Irudiaren kanalak alderantzikatu"
 
 
-msgid "Invert Alpha Channel"
-msgstr "Alfa kanala alderantzikatu"
-
-
-msgid "Invert Blue Channel"
-msgstr "Kanal urdina alderantzikatu"
-
-
-msgid "Invert Green Channel"
-msgstr "Kanal berdea alderantzikatu"
-
-
-msgid "Invert Red Channel"
-msgstr "Kanal gorria alderantzikatu"
-
-
 msgctxt "Operator"
 msgid "New Image"
 msgstr "Irudi berria"
@@ -1509,10 +1462,6 @@ msgstr "Irudi berri bat sortu"
 
 msgid "Create an image with an alpha channel"
 msgstr "Irudi bat sortu alfa kanalarekin"
-
-
-msgid "32 bit Float"
-msgstr "32 biteko Float"
 
 
 msgid "Image height"
@@ -1693,6 +1642,10 @@ msgid "Save Screenshot"
 msgstr "Pantaila-irudia Gorde"
 
 
+msgid "Property"
+msgstr "Ezaugarria"
+
+
 msgctxt "Operator"
 msgid "Rotate"
 msgstr "Biratu"
@@ -1720,6 +1673,11 @@ msgstr "Orria"
 
 
 msgctxt "Operator"
+msgid "Select Menu"
+msgstr "Menua Hautatu"
+
+
+msgctxt "Operator"
 msgid "Local View"
 msgstr "Bista Lokala"
 
@@ -1733,21 +1691,16 @@ msgid "Rotate the view"
 msgstr "Bista Biratu"
 
 
-msgctxt "Operator"
-msgid "Select Menu"
-msgstr "Menua Hautatu"
-
-
 msgid "Object Name"
 msgstr "Objectuaren Izena"
 
 
+msgid "Prev"
+msgstr "Aurrekoa"
+
+
 msgid "Play"
 msgstr "Erreproduzitu"
-
-
-msgid "Property"
-msgstr "Ezaugarria"
 
 
 msgctxt "Operator"
@@ -1965,6 +1918,16 @@ msgid "AO"
 msgstr "Inguruneko Oklusioa"
 
 
+msgctxt "Operator"
+msgid "Open..."
+msgstr "Ireki..."
+
+
+msgctxt "Operator"
+msgid "Manual"
+msgstr "Eskuliburua"
+
+
 msgid "Detail"
 msgstr "Xehetasuna"
 
@@ -1987,23 +1950,8 @@ msgstr "Tenperatura"
 
 
 msgctxt "Operator"
-msgid "Clear After"
-msgstr "Ondoren Garbitu"
-
-
-msgctxt "Operator"
-msgid "Clear Before"
-msgstr "Aurretik Garbitu"
-
-
-msgctxt "Operator"
 msgid "New"
 msgstr "Berria"
-
-
-msgctxt "Operator"
-msgid "Open..."
-msgstr "Ireki..."
 
 
 msgctxt "Operator"
@@ -2062,11 +2010,6 @@ msgstr "Kopia gorde..."
 msgctxt "Operator"
 msgid "Render Image"
 msgstr "Irudia Renderizatu"
-
-
-msgctxt "Operator"
-msgid "Manual"
-msgstr "Eskuliburua"
 
 
 msgctxt "Operator"
@@ -2281,26 +2224,6 @@ msgstr "Sarea"
 msgctxt "Mesh"
 msgid "Sphere"
 msgstr "Esfera"
-
-
-msgctxt "Operator"
-msgid "Top of File"
-msgstr "Fitxategiaren Goialdea"
-
-
-msgctxt "Operator"
-msgid "Bottom of File"
-msgstr "Fitxategiaren Behealdea"
-
-
-msgctxt "Operator"
-msgid "Page Up"
-msgstr "Orria Gora"
-
-
-msgctxt "Operator"
-msgid "Page Down"
-msgstr "Orria Behera"
 
 
 msgid "normal"
